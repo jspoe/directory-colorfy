@@ -1,19 +1,19 @@
 {
-  "name": "directory-colorfy",
-  "description": "Color up those SVGs",
-  "version": "3.0.0",
-  "homepage": "https://github.com/filamentgroup/directory-colorfy",
+  "name": "directory-colorfy-jspoe",
+  "description": "Color up those SVGs - Forked to create icons without the need to specify colors in the source file names",
+  "version": "2.3.1",
+  "homepage": "https://github.com/jspoe/directory-colorfy",
   "author": {
-    "name": "Jeffrey Lembeck & Filament Group",
-    "email": "thegroup@filamentgroup.com",
-    "url": "http://filamentgroup.com"
+    "name": "Jeffrey Lembeck & Filament Group - Forked by Jspoe",
+    "email": "jspoelstra@hotmail.com",
+    "url": "https://github.com/jspoe/directory-colorfy"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/filamentgroup/directory-colorfy"
+    "url": "hhttps://github.com/jspoe/directory-colorfy"
   },
   "bugs": {
-    "url": "https://github.com/filamentgroup/directory-colorfy/issues"
+    "url": "https://github.com/jspoe/directory-colorfy/issues"
   },
   "licenses": [
     {

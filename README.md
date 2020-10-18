@@ -5,7 +5,8 @@
 Color up those SVGs
 
 ## Getting Started
-Install the module with: `npm install directory-colorfy`
+Install the module with: `npm install directory-colorfy-jspoe`
+This package is a fork from `directory-colorfy`
 
 ```javascript
 var DirectoryColorfy = require('directory-colorfy');

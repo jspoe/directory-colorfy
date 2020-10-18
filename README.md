@@ -70,6 +70,38 @@ Only a single file will be generated:
 bear-white.svg
 ```
 
+#### options.noColorFiles
+Type: `Boolean`
+Default value: `false`
+
+Allows you to specify if all the icons in the source directory should be colorfied
+to the given colors, without specifing the colors to the source filename. 
+
+For example, if given a file named like so: 
+
+```
+bear.svg
+```
+
+And `noColorFiles` is set to `true`:
+
+```
+{
+    colors: { 
+        "primary": "#ff0000",
+        "secondary": "#ff1111",
+    },
+	noColorFiles: true
+}
+```
+
+The following files will be generated:
+
+```
+bear-primary.svg
+bear-secondary.svg
+```
+
 ## Examples
 
 If the input directory has this file in it:

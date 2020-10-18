@@ -5,7 +5,8 @@
 Color up those SVGs
 
 ## Getting Started
-Install the module with: `npm install directory-colorfy`
+Install the module with: `npm install directory-colorfy-jspoe`
+This package is a fork from `directory-colorfy`
 
 ```javascript
 var DirectoryColorfy = require('directory-colorfy');
@@ -68,6 +69,38 @@ Only a single file will be generated:
 
 ```
 bear-white.svg
+```
+
+#### options.noColorFiles
+Type: `Boolean`
+Default value: `false`
+
+Allows you to specify if all the icons in the source directory should be colorfied
+to the given colors, without specifing the colors to the source filename. 
+
+For example, if given a file named like so: 
+
+```
+bear.svg
+```
+
+And `noColorFiles` is set to `true`:
+
+```
+{
+    colors: { 
+        "primary": "#ff0000",
+        "secondary": "#ff1111",
+    },
+	noColorFiles: true
+}
+```
+
+The following files will be generated:
+
+```
+bear-primary.svg
+bear-secondary.svg
 ```
 
 ## Examples
